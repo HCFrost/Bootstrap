@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </head>
+
+    <body class="bg-secondary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">HCFrost</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item dropdown ms-auto" >
+                            <a class="nav-link "  href="index.html" >Leaderboard</a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link active" href="page2.html">Favorite Game</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container ">
+            <form class=" row bg-info bg-opacity-50 text-center text-black">
+                <div class="form-group  col-12">
+                    <label>
+                        <h1>Favorite Videogame</h1>
+                    </label>
+                </div>
+                
+                <div class="row form-check ">
+                    <div class="offset-3 col-6 form-group">
+                        <label class=" form-check-label" >
+                            <input class=" form-check-input m-2" type="radio" name="Radio" id="Radio1" value="option1">
+                                Valorant
+                        </label>
+                    </div>
+                </div>
+            
+                
+                <div class="row form-check ">
+                    <div class=" offset-3 col-6">
+                        <label class="form-check-label" >
+                            <input class="form-check-input m-2" type="radio" name="Radio" id="Radio2" value="option2">
+                                Valheim
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="row form-check ">
+                    <div class=" offset-3 col-6 form-group">
+                        <label class="form-check-label " >
+                            <input class="form-check-input m-2" type="radio" name="Radio" id="Radio3" value="option3">
+                                Halo Infinite
+                        </label>
+                    </div>
+                </div>
+                
+            
+                <div class="row form-check ">
+                    <div class=" offset-3 col-6 form-group">
+                        <label class="form-check-label" >
+                            <input class="form-check-input m-2" type="radio" name="Radio" id="Radio3" value="option3">
+                                Other
+                        </label>
+                    </div>
+                    <input type="text" class="form-control  text-center" placeholder="Input Videogame" >
+                </div>    
+                <div class="row form-check ">
+                    <div class=" offset-3 col-6 form-group">
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+.table-dark{
+    color: rgb(0, 140, 255, 0.644);
+    --bs-table-striped-color:rgb(0, 140, 255);
+    --bs-table-hover-color:rgb(32, 178, 171);
+}
